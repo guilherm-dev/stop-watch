@@ -9,7 +9,6 @@ public class StopWatch {
     }
 
     static void Menu() {
-        clearConsole();
         System.out.println("S = seg -> 10s = 10 seconds");
         System.out.println("M = min -> 1m = 1 minute");
         System.out.println("0 = Exit");

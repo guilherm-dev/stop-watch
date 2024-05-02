@@ -31,7 +31,6 @@ public class StopWatch {
     }
 
     static void preStart(int time) {
-        clearConsole();
         System.out.println("Ready...");
         sleep(1000);
 
@@ -48,16 +47,11 @@ public class StopWatch {
         int currentTime = 0;
 
         while (currentTime != time) {
-            clearConsole();
             currentTime++;
             System.out.println(currentTime);
             sleep(1000);
         }
 
-        clearConsole();
-        System.out.println("Stop Watch finished");
-        sleep(2500);
-        Menu();
     }
 
     static void clearConsole() {
